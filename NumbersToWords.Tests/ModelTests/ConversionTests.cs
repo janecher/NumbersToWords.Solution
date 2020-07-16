@@ -7,10 +7,24 @@ namespace NumbersToWords.Tests
   public class ConversionTests
   {
     [TestMethod]
-    public void NameOfMethodWeAreTesting_DescriptionOfBehavior_ExpectedReturnValue()
+    public void NumberOfDigits_CountNumberOfDigitsInTheNumber_IntegerNumber()
     {
-      // any necessary logic to prep for test; instantiating new classes, etc.
-      //Assert.AreEqual(EXPECTED RESULT, CODE TO TEST);
+      int number = 235;
+      Assert.AreEqual(3, Conversion.NumberOfDigits(number));
+    }
+
+    [TestMethod]
+    public void ThreeDigitConversion_CountNumberToWord_TwoHundredThirtyFive()
+    {
+      int number = 235;
+      Assert.AreEqual("two hundred thirty five", Conversion.ThreeDigitConversion(Conversion.NumberToListOfDigits(number)));
+    }
+
+    [TestMethod]
+    public void ThreeDigitConversion_CountNumberToWord_OneHundredEvelen()
+    {
+      int number = 111;
+      Assert.AreEqual("one hundred eleven", Conversion.ThreeDigitConversion(Conversion.NumberToListOfDigits(number)));
     }
   }
 }
