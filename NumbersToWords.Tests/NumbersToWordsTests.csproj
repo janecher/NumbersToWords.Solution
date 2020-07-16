@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NumbresToWords\NumbersToWords.csproj" />  
+    <ProjectReference Include="..\NumbersToWords\NumbersToWords.csproj" />  
   </ItemGroup>
 
 </Project>
