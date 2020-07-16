@@ -22,7 +22,7 @@ class Program
     }
     else
     {
-      Console.WriteLine("Incorrect input, only integers numbers");
+      Console.WriteLine("Incorrect input, only integer numbers");
     }
     Main();
   }

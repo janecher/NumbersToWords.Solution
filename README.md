@@ -27,7 +27,7 @@ Console app that translates numbers in numeric form into written words.
 | Convert tens to match word | 23 | "twentee three" |
 | Convert tens between 10 and 19 to match word | 14 | "fourteen" |
 | Convert hundreds, thousands, etc. up to trillions to match word | 3000 | "three thousand" |
-| Inform user if input is incorrect | "word" | "Incorrect input, only integers numbers" |
+| Inform user if input is incorrect | "word" | "Incorrect input, only integer numbers" |
 
 ## Known Bugs
 
